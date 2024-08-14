@@ -7,10 +7,10 @@
       "price": 123.56
     }
   ],
-  "shipping": {
+  "shipping": [{
     "id": 1,
     "name":"B-Post",
     "price":0,
     "delivery": "7-10 working days"
-  }
+  }]
 }
