@@ -4,7 +4,15 @@
       "id": 1,
       "title": "dartboard",
       "description":"clothing for the lover of throwing darts",
-      "price": 123.56
+      "price": 123.56,
+      "imgURL":"/images/dartboard"
+    },
+    {
+      "id": 2,
+      "title": "iets adners",
+      "description":"clothing for the lover of throwing darts",
+      "price": 123.56,
+      "imgURL":"/images/else"
     }
   ],
   "shipping": [{
