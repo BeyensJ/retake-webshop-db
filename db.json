@@ -15,10 +15,22 @@
       "imgURL":"/assets/else"
     }
   ],
-  "shipping": [{
+  "shipping": [
+    {
     "id": 1,
     "name":"B-Post",
     "price":0,
     "delivery": "7-10 working days"
-  }]
+  },{
+    "id": 2,
+    "name":"PostNL",
+    "price":3,
+    "delivery": "3-5 working days"
+  },{
+    "id": 3,
+    "name":"DHL",
+    "price":5,
+    "delivery": "Next day delivery"
+  }
+  ]
 }
