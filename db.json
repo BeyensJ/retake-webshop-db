@@ -1,16 +1,11 @@
 {
-  "products": [
+  "posts": [
     {
       "id": 1,
-      "title": "dartboard",
-      "description":"clothing for the lover of throwing darts",
-      "price": "123.56"
+      "title": "hello"
     }
   ],
-  "shipping": [{
-    "id": 1,
-    "name":"B-Post",
-    "price":0,
-    "delivery": "7-10 working days"
-  }]
+  "profile": {
+    "name": "typicode"
+  }
 }
