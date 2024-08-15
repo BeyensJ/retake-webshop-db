@@ -2,17 +2,45 @@
   "products": [
     {
       "id": 1,
-      "title": "dartboard",
-      "description":"clothing for the lover of throwing darts",
-      "price": 123.56,
+      "title": "The Dartboard",
+      "description":"Clothing for the lover of throwing darts",
+      "price": 180,
       "imgURL":"/assets/dartboard.jpeg"
     },
     {
       "id": 2,
-      "title": "iets anders",
-      "description":"clothing for the lover of throwing darts",
-      "price": 123.56,
-      "imgURL":"/assets/else"
+      "title": "The Donut",
+      "description":"Get an ace in the donut hole with this fabulous dress",
+      "price": 58.99,
+      "imgURL":"/assets/donut.jpg"
+    },
+    {
+      "id": 3,
+      "title": "The Nature Lover",
+      "description":"Become one with nature in this beautifull garment",
+      "price": 251.20,
+      "imgURL":"/assets/fir.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The Square",
+      "description":"Taking 'Be there or be square' to the next level",
+      "price": 90.90,
+      "imgURL":"/assets/square.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The Breakfast Club",
+      "description":"Want to make sure everyone knows you're a basic white girl? You can, with this avocado dress!",
+      "price": 99.99,
+      "imgURL":"/assets/avocado.jpg"
+    },
+    {
+      "id": 6,
+      "title": "The Obvious",
+      "description":"Well, euhm... does this need a description?",
+      "price": 69.69,
+      "imgURL":"/assets/well.jpg"
     }
   ],
   "shipping": [
