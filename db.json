@@ -179,5 +179,37 @@
       "answer": 1,
       "explanation": "This one is a classic. While the other options are creative, the most surefire way to get a cheese-free pizza slice is to simply ask for it."
     }
+  ],
+  "high_scores": [
+    {
+      "name": "Einsteinian_Wombat",
+      "category_id": 1,
+      "score": 5
+    },
+    {
+      "name": "Captain_Chaos",
+      "category_id": 1,
+      "score": 4
+    },
+    {
+      "name": "Professor_Pixel",
+      "category_id": 2,
+      "score": 5
+    },
+    {
+      "name": "Time_Traveler_Tim",
+      "category_id": 2,
+      "score": 4
+    },
+    {
+      "name": "Quiz_Master_Flex",
+      "category_id": 3,
+      "score": 5
+    },
+    {
+      "name": "Snarky_Snail",
+      "category_id": 3,
+      "score": 5
+    }
   ]
 }
