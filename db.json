@@ -1,64 +1,183 @@
 {
-  "products": [
+  "categories": [
     {
       "id": 1,
-      "title": "The Dartboard",
-      "description":"Let everyone know your pin point precision with this bulls-eye.",
-      "price": 180,
-      "imgURL":"/assets/dartboard.jpeg"
+      "name": "Science & Nature (Sort Of)"
     },
     {
       "id": 2,
-      "title": "The Donut",
-      "description":"Get an ace in the donut hole with this fabulous dress",
-      "price": 58.99,
-      "imgURL":"/assets/donut.jpg"
+      "name": "History & Inventions (The Weird Parts)"
     },
     {
       "id": 3,
-      "title": "The Nature Lover",
-      "description":"Become one with nature in this beautifull garment",
-      "price": 251.20,
-      "imgURL":"/assets/fir.jpg"
+      "name": "Pop Culture & The Absurd"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "question": "Which of these animals would win a staring contest?",
+      "option_1": "An owl",
+      "option_2": "A chameleon",
+      "option_3": "A fish",
+      "option_4": "A sloth",
+      "answer": 3,
+      "explanation": "Fish don't have eyelids, so they literally can't blink. They've got the unblinking stare game on lock."
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "question": "If you drop a banana and a mango from the same height at the same time, which one hits the ground first?",
+      "option_1": "The mango, because it's denser.",
+      "option_2": "The banana, because it's more aerodynamic.",
+      "option_3": "They hit at the same time, because gravity.",
+      "option_4": "The banana, because it's screaming in terror.",
+      "answer": 3,
+      "explanation": "Ignoring air resistance, all objects fall at the same rate regardless of their mass or density. But the screaming banana scenario is a good one to ponder."
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "question": "What is a group of crows called?",
+      "option_1": "A murder",
+      "option_2": "A gang",
+      "option_3": "A party",
+      "option_4": "A cuddle",
+      "answer": 1,
+      "explanation": "A group of crows is called a 'murder,' which is fitting because they're a bit spooky. But a 'cuddle' of crows sounds pretty cute, doesn't it?"
     },
     {
       "id": 4,
-      "title": "The Square",
-      "description":"Taking 'Be there or be square' to the next level",
-      "price": 90.90,
-      "imgURL":"/assets/square.jpg"
+      "category_id": 1,
+      "question": "What is the primary ingredient in a bar of soap?",
+      "option_1": "Dirt",
+      "option_2": "Lies",
+      "option_3": "Fats or oils",
+      "option_4": "The tears of your enemies",
+      "answer": 3,
+      "explanation": "Soap is made through a chemical process called saponification, which uses fats or oils. The other options might make for some interesting soap scents, though."
     },
     {
       "id": 5,
-      "title": "The Breakfast Club",
-      "description":"Want to make sure everyone knows you're a basic white girl? You can, with this avocado dress!",
-      "price": 99.99,
-      "imgURL":"/assets/avocado.jpg"
+      "category_id": 1,
+      "question": "Which of these is NOT a real planet in our solar system?",
+      "option_1": "Jupiter",
+      "option_2": "Uranus",
+      "option_3": "Planet McPlanetface",
+      "option_4": "Neptune",
+      "answer": 3,
+      "explanation": "While 'Planet McPlanetface' would have been a fantastic name, sadly, it is not a real planet. It was a joke name proposed for a research vessel, though!"
     },
     {
       "id": 6,
-      "title": "The Obvious",
-      "description":"Well, euhm... does this need a description?",
-      "price": 69.69,
-      "imgURL":"/assets/well.jpg"
-    }
-  ],
-  "shipping": [
+      "category_id": 2,
+      "question": "Before alarm clocks, what did people hire to wake them up in the morning?",
+      "option_1": "A professional yodeler",
+      "option_2": "A 'knocker-upper'",
+      "option_3": "A very patient rooster",
+      "option_4": "A tiny catapult that launched soft pillows at their faces",
+      "answer": 2,
+      "explanation": "'Knocker-uppers' were people who were paid to tap on a client's door or window with a long stick to wake them up for work. No word on the pillow catapult, but it's a solid idea."
+    },
     {
-    "id": 1,
-    "name":"B-Post",
-    "price":0,
-    "delivery": "7-10 working days"
-  },{
-    "id": 2,
-    "name":"PostNL",
-    "price":3,
-    "delivery": "3-5 working days"
-  },{
-    "id": 3,
-    "name":"DHL",
-    "price":5,
-    "delivery": "Next day delivery"
-  }
+      "id": 7,
+      "category_id": 2,
+      "question": "What did the inventor of the Segway also invent?",
+      "option_1": "The world's first motorized pogo stick",
+      "option_2": "A wheelbarrow with a built-in cup holder",
+      "option_3": "The first self-balancing wheelchair",
+      "option_4": "A hat that dispenses bacon",
+      "answer": 3,
+      "explanation": "Dean Kamen, the Segway's inventor, is a genius known for his medical inventions, including the iBOT, a self-balancing wheelchair that can climb stairs."
+    },
+    {
+      "id": 8,
+      "category_id": 2,
+      "question": "Which of these was a real, proposed military project by the U.S. during WWII?",
+      "option_1": "Project Bat Bomb",
+      "option_2": "Project Squirrel Sabotage",
+      "option_3": "Project Pigeon-Guided Missiles",
+      "option_4": "All of the above",
+      "answer": 4,
+      "explanation": "All three of these were real, though ultimately abandoned, military projects. They involved training bats to carry incendiary bombs, squirrels to chew through cables, and pigeons to guide missiles to their targets."
+    },
+    {
+      "id": 9,
+      "category_id": 2,
+      "question": "What was the name of the first successful computer bug?",
+      "option_1": "A moth",
+      "option_2": "A mosquito",
+      "option_3": "A spider",
+      "option_4": "A cockroach",
+      "answer": 1,
+      "explanation": "In 1947, a moth was found and removed from a relay of the Harvard Mark II computer. The term 'debugging' was born."
+    },
+    {
+      "id": 10,
+      "category_id": 2,
+      "question": "What was the first item to be sold on eBay?",
+      "option_1": "A laser pointer",
+      "option_2": "A broken laser pointer",
+      "option_3": "A signed baseball card",
+      "option_4": "A beanie baby",
+      "answer": 2,
+      "explanation": "The founder, Pierre Omidyar, sold a broken laser pointer for $14.83. When he emailed the buyer to ask if he realized it was broken, the buyer replied, 'I am a collector of broken laser pointers.'"
+    },
+    {
+      "id": 11,
+      "category_id": 3,
+      "question": "In the movie 'Jurassic Park', what does Dennis Nedry smuggle the dinosaur embryos in?",
+      "option_1": "A coffee cup",
+      "option_2": "A shaving cream can",
+      "option_3": "A fake potted plant",
+      "option_4": "A hollowed-out book",
+      "answer": 2,
+      "explanation": "He used a modified Barbasol shaving cream can, complete with a tiny refrigerator system. It was very high-tech for 1993."
+    },
+    {
+      "id": 12,
+      "category_id": 3,
+      "question": "What flavor of Pop-Tarts is the most popular?",
+      "option_1": "Frosted Strawberry",
+      "option_2": "Frosted Blueberry",
+      "option_3": "S'mores",
+      "option_4": "Unfrosted Brown Sugar Cinnamon",
+      "answer": 1,
+      "explanation": "Frosted Strawberry has consistently been the best-selling Pop-Tarts flavor for years. It's the undisputed champion of breakfast pastries."
+    },
+    {
+      "id": 13,
+      "category_id": 3,
+      "question": "What were the original 'Pac-Man' ghosts named?",
+      "option_1": "Inky, Blinky, Pinky, and Clyde",
+      "option_2": "Scary, Spooky, Creepy, and Casper",
+      "option_3": "Snap, Crackle, Pop, and Whack",
+      "option_4": "Larry, Curly, Moe, and Shemp",
+      "answer": 1,
+      "explanation": "Their original Japanese names were actually different, but the American release gave us the iconic Inky, Blinky, Pinky, and Clyde. Clyde is the orange one who's a bit of a goofball."
+    },
+    {
+      "id": 14,
+      "category_id": 3,
+      "question": "How many teeth does a regular adult human have?",
+      "option_1": "28",
+      "option_2": "32",
+      "option_3": "Somewhere between 'enough' and 'too many'",
+      "option_4": "It depends on how many times you've been punched",
+      "answer": 2,
+      "explanation": "An adult human has 32 teeth, including the wisdom teeth. The last two options, however, are also sometimes true."
+    },
+    {
+      "id": 15,
+      "category_id": 3,
+      "question": "What's the best way to get a pizza slice with no cheese?",
+      "option_1": "Ask for no cheese when you order it.",
+      "option_2": "Say 'please' and 'thank you'.",
+      "option_3": "Tell the pizza maker you're a robot and you're allergic to cheese.",
+      "option_4": "Wait for a miracle.",
+      "answer": 1,
+      "explanation": "This one is a classic. While the other options are creative, the most surefire way to get a cheese-free pizza slice is to simply ask for it."
+    }
   ]
 }
